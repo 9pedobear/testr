@@ -19,7 +19,7 @@ from gridApp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name='index'),
+    path('', index),
     path('addnew', addnew),
     path('edit/<int:id>', edit),
     path('update/<int:id>', update),
